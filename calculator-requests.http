@@ -1,0 +1,18 @@
+### Приветствие
+GET http://localhost:8080/calculator
+
+### Cложение двух чисел
+GET http://localhost:8080/calculator/plus?num1=1&num2=2
+
+### Разность двух чисел
+GET http://localhost:8080/calculator/minus?num1=1&num2=2
+
+### Умножение двух чисел
+GET http://localhost:8080/calculator/multiply?num1=1&num2=2
+
+### Деление двух чисел
+GET http://localhost:8080/calculator/divide?num1=1&num2=2
+
+### Деление на ноль
+GET http://localhost:8080/calculator/divide?num1=1&num2=0
+
